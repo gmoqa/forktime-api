@@ -26,5 +26,6 @@ app.get('', (req, res) => {
 });
 
 app.use('/customers', require('./src/routes/customer.routes'));
+app.use('/transactions', require('./src/routes/transaction.routes'));
 
 module.exports = app;
