@@ -1,0 +1,26 @@
+{
+  "name": "forktime-api",
+  "version": "1.0.0",
+  "description": "A Forktime API REST",
+  "main": "app.js",
+  "scripts": {
+    "start": "bin/www",
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmoqa/forktime-api.git"
+  },
+  "author": "Guillermo Quinteros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmoqa/forktime-api/issues"
+  },
+  "homepage": "https://github.com/gmoqa/forktime-api#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "morgan": "^1.9.1"
+  }
+}
