@@ -25,6 +25,7 @@ app.get('', (req, res) => {
     });
 });
 
+app.use('', require('./src/routes/security.routes'));
 app.use('/customers', require('./src/routes/customer.routes'));
 app.use('/transactions', require('./src/routes/transaction.routes'));
 
