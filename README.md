@@ -24,15 +24,9 @@ cd forktime-api
 
 # Build your docker
 docker build -t forktime/api .
-#            ^      ^        ^
-#          tag  tag name   Dockerfile location
 
 # run your docker
 docker run -p 3000:8080 forktime/api
-#                 ^            ^
-#          bind the port    container tag
-#          to your host
-#          machine port   
 
 ```
 
